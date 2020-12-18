@@ -11,7 +11,8 @@ class Ground {
     display(){
       var pos =this.body.position;
       rectMode(CENTER);
-      fill("brown");
+      fill("orange");
+      console.log("Platform color change to orange")
       rect(pos.x, pos.y, this.width, this.height);
     }
   };
